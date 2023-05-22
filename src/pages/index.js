@@ -1,7 +1,10 @@
-import * as React from "react"
+import * as React from "react";
+import Layout from "../components/Layout";
 
 export default function Home() {
-  return <div>
-    Hi
-  </div>
+  return (
+    <Layout>
+      <h1>Home Page</h1>
+    </Layout>
+  );
 }
