@@ -60,7 +60,7 @@
     --extraSmallText: 0.7em;
     /* rest */
     --backgroundColor: var(--grey-0);
-    --textColor: var(--primary-700);
+    --textColor: var(--grey-1000);
     --borderRadius: 0.25rem;
     --letterSpacing: 1px;
     --transition: 0.3s ease-in-out all;
