@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "gatsby";
 import { FiAlignJustify } from "react-icons/fi";
 import logo from "../assets/images/logo.svg";
 
 const Navbar = () => {
+  const [show, setShow] = useState(false);
+
   return (
     <nav className="navbar">
       <div className="nav-center">
@@ -11,29 +13,45 @@ const Navbar = () => {
           <Link to="/">
             <img src={logo} alt="Amys Recipes" />
           </Link>
-          <button className="nav-btn">
+          <button className="nav-btn" onClick={() => setShow(!show)}>
             <FiAlignJustify />
           </button>
         </div>
-        <div className="nav-links show-links">
-          <Link to="/" className="nav-link" activeClassName="active-link">
+        <div className={show ? "nav-links show-links" : "nav-links"}>
+          <Link
+            to="/"
+            className="nav-link"
+            activeClassName="active-link"
+            onClick={() => setShow(false)}
+          >
             home
           </Link>
           <Link
             to="/Recipes"
             className="nav-link"
             activeClassName="active-link"
+            onClick={() => setShow(false)}
           >
             recipes
           </Link>
-          <Link to="/Tags" className="nav-link" activeClassName="active-link">
+          <Link
+            to="/Tags"
+            className="nav-link"
+            activeClassName="active-link"
+            onClick={() => setShow(false)}
+          >
             tags
           </Link>
-          <Link to="/About" className="nav-link" activeClassName="active-link">
+          <Link
+            to="/About"
+            className="nav-link"
+            activeClassName="active-link"
+            onClick={() => setShow(false)}
+          >
             about
           </Link>
           <div className="nav-link contact-link">
-            <Link to="/Contact" className="btn">
+            <Link to="/Contact" className="btn" onClick={() => setShow(false)}>
               contact
             </Link>
           </div>
