@@ -2,6 +2,10 @@ import React from "react";
 import { Link } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
+/**
+ * This component displays recipes as links
+ * from a recipe array passed in
+ **/
 const RecipesList = ({ recipes = [] }) => {
   return (
     <div className="recipes-list">
