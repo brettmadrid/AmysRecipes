@@ -9,7 +9,7 @@ const About = () => {
       <main className="page">
         <section className="about-page">
           <article>
-            <h2>Hi, I'm Amy. These are my go to meals</h2>
+            <h2>I'm Amy. These are my go to meals</h2>
             <p>
               I love cooking, but let's face it, coming up with meal ideas every
               week can be a drag. So my partner created this site for me to
