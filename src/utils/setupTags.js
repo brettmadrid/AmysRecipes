@@ -16,7 +16,8 @@ const setupTags = (recipes) => {
     const [secondTag] = b;
     return firstTag.localeCompare(secondTag);
   });
-  return recipes;
+
+  return newTags;
 };
 
 export default setupTags;
