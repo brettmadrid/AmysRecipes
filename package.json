@@ -16,6 +16,7 @@
     "babel-plugin-styled-components": "^2.1.3",
     "gatsby": "^5.9.1",
     "gatsby-plugin-image": "^3.11.0",
+    "gatsby-plugin-react-helmet": "^6.11.0",
     "gatsby-plugin-sharp": "^5.10.0",
     "gatsby-plugin-styled-components": "^6.10.0",
     "gatsby-plugin-webfonts": "^2.3.2",
@@ -25,6 +26,7 @@
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-icons": "^4.8.0",
     "slugify": "^1.6.6",
     "styled-components": "^5.3.10"
