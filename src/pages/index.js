@@ -20,7 +20,7 @@ export default function Home() {
           <div className="hero-container">
             <div className="hero-text">
               <h1>amy's recipes</h1>
-              <h4>Favorite recipes I feed my family</h4>
+              <h4>These are my go to recipes I use in meal planning</h4>
             </div>
           </div>
         </header>
